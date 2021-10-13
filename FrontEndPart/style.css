@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    width: 540px;
+    height: 180px;
+    max-width: 50%;
+    padding-left: 40px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.column-first{
+    background: linear-gradient(225deg, #F01D8E 0%, #E30D80 100%);
+    border-radius: 2px;
+    margin-right: 30px;
+}
+
+.column-second{
+    background: linear-gradient(225deg, #6492C7 0%, #345995 100%);
+    border-radius: 2px;
+}
+
+.column__title{
+    margin-bottom: 4px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    margin-right: 230px;
+}
+
+.column__description{
+    margin-bottom: 11px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.column__btn{
+    border: none;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #E30D80;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+    padding: 9px 25px 11px 25px;
+}
+
+.column__img{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+.img-container{
+    position: relative;
+}
+.column_img-apps{
+    margin-top: 30px;
+}
+.app-img{
+
+}
+
